@@ -1,0 +1,2 @@
+#  maxxstick controller;
+SUBSYSTEMS=="usb", ATTRS{idVendor}=="2e8a", ATTRS{idProduct}=="104d", MODE="066", TAG+="uaccess"
